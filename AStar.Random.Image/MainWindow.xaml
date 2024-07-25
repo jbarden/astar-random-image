@@ -21,6 +21,7 @@
             </Button.RenderTransform>
         </Button>
         <Image Name="ImageDisplay" HorizontalAlignment="Left" Margin="24,41,0,0" VerticalAlignment="Top" />
-        <Label Name="FileDetail" HorizontalAlignment="Left" Foreground="White" Content="Hi!" VerticalAlignment="Top" Margin="756,13,0,0"/>
+        <Label Name="FileDetail" HorizontalAlignment="Left" Foreground="White" Content="Hi!" VerticalAlignment="Top" Margin="840,13,0,0"/>
+        <Button Content="Mark 4 Delete" HorizontalAlignment="Left" Margin="749,17,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
     </Grid>
 </Window>
