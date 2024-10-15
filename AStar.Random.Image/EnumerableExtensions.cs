@@ -14,7 +14,7 @@ public static class EnumerableExtensions
     /// <param name="searchType"></param>
     /// <returns></returns>
     public static IEnumerable<FileDetail> FilterImagesIfApplicable(this IEnumerable<FileDetail> files, string searchType)
-        => searchType != "Images" ? files : files.Where(file => file.IsImage2);
+        => searchType != "Images" ? files : files.Where(file => file.IsImage);
 
     /// <summary>
     ///
